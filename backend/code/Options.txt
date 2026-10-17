@@ -1,0 +1,24 @@
+epsilon 0.2
+context 20
+NHY 10
+NF 10 
+NHF 10
+CoF 0
+Moore 0
+adaptive 1000
+nEpochs 2000
+shuffle 1
+Step 1
+seed 949
+readModel 0
+readEpoch 0
+reload 1
+belief 0
+threshold 0
+
+Classes 2
+Thresholds 1.5
+
+batch_blocks 27
+alidir ../alignments/
+

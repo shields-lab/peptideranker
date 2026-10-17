@@ -1,0 +1,33 @@
+OBJECTST = General.o Layer.o MModel.o NNto1.o NNt.o NN.o PeptideRanker.o
+HEADERST = General.h Layer.h MModel.h NNto1.h NNt.h NN.h Sequence.h 
+
+CC	= g++
+CFLAGS  = -O3
+
+PeptideRanker :	$(OBJECTST) 
+	$(CC) $(CFLAGS) -o $@ $(OBJECTST) $(LLIBS)
+
+PeptideRanker.o : PeptideRanker.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+General.o : General.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+Layer.o : Layer.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+MModel.o : MModel.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+NNt.o : NNt.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+NN.o : NN.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+	
+NNto1.o : NNto1.cxx $(HEADERST)
+	$(CC) -c $(CFLAGS) $*.cxx
+
+
+clean:
+	rm *.o Train

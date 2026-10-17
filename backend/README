@@ -1,0 +1,14 @@
+To setup:
+
+in PeptideRanker.pl
+set $pipeline_dir="."; to the full path to the PeptideRanker executable
+(Models_Long.txt, Models_Short.txt and the Models folder need to be in the same location as the PeptideRanker executable) 
+
+
+To run:
+
+To rank a list of peptides in order of predicted probability of being bioactive:
+
+./PeptideRanker.pl input_file output_file
+e.g. ./PeptideRanker.pl testfile.txt testfile.ranked
+
