@@ -15,7 +15,8 @@ COMMERCIAL USE requires a separate written licence from the Licensor. Enquiries:
   </a>
 </p>
 
-## PeptideRanker is a web server for predicting whether peptide sequences are likely to possess bioactivity. Developed at University College Dublin (UCD) by Catherine Mooney and colleagues (catherine.mooney@ucd.ie).
+## PeptideRanker is a web server for predicting whether peptide sequences are likely to possess bioactivity.
+Developed at University College Dublin (UCD) by Catherine Mooney and colleagues (catherine.mooney@ucd.ie).
 
 ## To set up:
 
