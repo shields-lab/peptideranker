@@ -1,11 +1,10 @@
 # PeptideRanker Academic Licence
 Copyright (c) 2026 University College Dublin
 
-Commercial Use requires a separate written licence from the Licensor. Enquiries: catherine.mooney@ucd.ie
-
-
-# Read the full Licence here
+Read the full Licence here
 [View the standalone licence file](./LICENCE.md)
+
+COMMERCIAL USE requires a separate written licence from the Licensor. Enquiries: catherine.mooney@ucd.ie
 
 <p align="center">
     <img
