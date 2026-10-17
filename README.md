@@ -1,7 +1,5 @@
 # PeptideRanker Academic Licence
-# [PeptideRanker](https://github.com/indrani2611/peptideranker)
 
-[View the standalone licence file](./LICENCE.md)
 [View the standalone licence file](./LICENCE.md)
 
 Copyright (c) 2026 University College Dublin
@@ -66,16 +64,16 @@ This Licence is governed by the laws of Ireland.
 
 ---
 
-**PeptideRanker is a web server for predicting whether peptide sequences are likely to possess bioactivity.**
 <p align="center">
     <img
-      src="../frontpage/public/previews/peptideranker.png"
+      src="./assets/peptideranker.png"
       alt="PeptideRanker"
       width="500"
     >
   </a>
 </p>
 
+## PeptideRanker is a web server for predicting whether peptide sequences are likely to possess bioactivity.
 
 ## To set up:
 
