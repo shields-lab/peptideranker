@@ -1,4 +1,5 @@
 # PeptideRanker Academic Licence
+Copyright (c) 2026 University College Dublin
 
 [View the standalone licence file](./LICENCE.md)
 
